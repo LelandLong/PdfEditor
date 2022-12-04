@@ -40,7 +40,7 @@ const pdfEditor_create = () => {
       console.log("createPdf function successfully completed");
       globalPdfDoc = returnedDoc;
       FileMaker.PerformScriptWithOption(
-        "1.15_Create-Add_results",
+        "1.26_Create-Add_results",
         returnedDoc,
         5
       );
@@ -91,7 +91,7 @@ const pdfEditor_getSize = () => {
     .then((dimensions) => {
       console.log("getSize function successfully completed");
       FileMaker.PerformScriptWithOption(
-        "1.16_GetSize_results",
+        "1.27_GetSize_results",
         JSON.stringify(dimensions),
         5
       );
@@ -156,7 +156,7 @@ const pdfEditor_addPage = (pageSize) => {
       console.log("addPage function successfully completed");
       globalPdfDoc = returnedDoc;
       FileMaker.PerformScriptWithOption(
-        "1.20_Create-Add_results",
+        "1.26_Create-Add_results",
         returnedDoc,
         5
       );
@@ -227,7 +227,7 @@ const pdfEditor_addText = (theText, whereX, whereY, rotation) => {
       console.log("modifyPdf function successfully completed");
       globalPdfDoc = returnedDoc;
       FileMaker.PerformScriptWithOption(
-        "1.15_Create-Add_results",
+        "1.26_Create-Add_results",
         returnedDoc,
         5
       );
