@@ -2,7 +2,7 @@
 
 #### A FileMaker Pro utility & JavaScript integration training aid
 
-Create or edit PDF's in FileMaker Pro, without plugins. Pure Javascript with locally stored library 'pdf-lib'.
+Create or edit PDF's in FileMaker Pro, without plugins. Pure JavaScript with locally stored library 'pdf-lib'.
 
 ![Overview image](images/Overview.png)
 
@@ -25,6 +25,6 @@ Create or edit PDF's in FileMaker Pro, without plugins. Pure Javascript with loc
 
 #### Dependancies
 
-This database uses the Javascript Library "pdf-lib" (https://pdf-lib.js.org)
+This database uses the JavaScript Library "pdf-lib" (https://pdf-lib.js.org)
 
-This database is completely self contained and all the required Javascript Library data has been stored locally in the database.
+This database is completely self contained and all the required JavaScript Library data has been stored locally in the database.
